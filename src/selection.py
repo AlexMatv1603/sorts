@@ -12,7 +12,3 @@ def selection_sort(array: list):
         if min_val_index != i:
             swap(array, i, min_val_index)
 
-
-arr = [8, 3, 5, 1, 6, 2, 4, 10, 7, 9]
-
-selection_sort(arr)
